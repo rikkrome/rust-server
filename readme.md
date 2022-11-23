@@ -18,7 +18,7 @@ cargo run
 
 ### test
 ```
-
+curl http://localhost:8080/ | jq .
 curl http://localhost:8080/todos | jq .
 ```
 
